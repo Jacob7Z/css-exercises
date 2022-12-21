@@ -1,7 +1,27 @@
 .header  {
   font-family: monospace;
   background: papayawhip;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
 }
+
+
+ ul{
+  display: flex;
+  padding: 0px;
+  margin: 0px;
+  gap: 10px;
+}
+
+
+
+
+
+
+
+
 
 .logo {
   font-size: 48px;

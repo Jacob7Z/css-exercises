@@ -1,3 +1,30 @@
+.header{
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+
+}
+
+.left, .right{
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+
+ul{
+  display: flex;
+  gap: 16px;
+  margin: 10px;
+  padding: 0;
+}
+
+
+
+
+
+
+
 /* this is some magical font-importing.  
 you'll learn about it later. */
 @import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
@@ -46,3 +73,4 @@ a {
 ul {
   list-style-type: none;
 }
+
